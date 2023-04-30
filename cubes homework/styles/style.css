@@ -1,0 +1,227 @@
+.flex_container {
+  width: 700px;
+  height: 700px;
+  /* margin:700px auto; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  border: 5px solid black;
+  
+}
+
+.block1{
+  display: flex;
+  width: 175px;
+  height: 180px;
+  background-color:rgb(243, 209, 157);
+  border: 10px solid black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border-left: 0px  solid black;
+    border-top: 0px  solid black;
+    border-right: 5px solid black;
+    border-bottom: 15px  solid black;
+  /* flex-grow: 1; */
+}
+.block2{
+  display: flex;
+  width: 175px;
+  height: 250px;
+  background-color:rgb(243, 209, 157);
+  /* border: 1px solid rgb(161, 156, 156); */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  border-left: 0px groove black;
+    border-top: 30px solid black;
+    border-right: 5px solid black;
+    border-bottom: 10px solid black;
+  /* flex-grow: 1; */
+}
+.block3{
+  display: flex;
+  width: 175px;
+  height: 150px;
+  background-color:rgb(90, 202, 230);
+  border: 10px solid black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border-left: 0px  solid black;
+    border-top: 0px  solid black;
+    border-right: 5px solid black;
+    border-bottom: 0px  solid black;
+    flex-grow: 10;
+}
+
+
+.block4{
+  display: flex;
+  width: 515px;
+  height: 520px;
+  background-color:rgb(209, 17, 17);
+  border: 10px solid black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border-left: 5px  solid black;
+    border-top: 0px  solid black;
+    border-right: 5px solid black;
+    border-bottom: 10px  solid black;
+}
+.block5{
+  
+  display: flex;
+  width: 480px;
+  height:170px;
+  flex-direction:row;
+  background-color:rgb(210, 241, 247);
+  border: 10px solid black;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border-left: 5px  solid black;
+    border-top: 0px  solid black;
+    border-right: 5px solid black;
+    border-bottom: 0px  solid black;
+}
+
+
+.block6{
+  display:flex;
+  width: 50px;
+  height:50px;
+  flex-direction:row;
+  background-color:rgb(210, 241, 247);
+  border: 10px solid black;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border-left: 5px  solid black;
+    border-top: 0px  solid black;
+    border-right: 5px solid black;
+    border-bottom: 0px  solid black;
+}
+
+.flex_container2 {
+  position: relative;
+  width: 30px;
+  height: 173px;
+  top:-180px;
+  left: 670px;
+  /* margin:700px auto; */
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  border-right: 5px solid black;
+  border-left: 7px solid black;
+  border-right: 2px solid black;
+  border-top: 1px  solid black;
+    border-bottom: 1px  solid black;
+}
+.block8{
+  display: flex;
+  width: 25px;
+  height:80px;
+  color:rgb(210, 241, 247);
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px  solid black;
+    border-top: 1px  solid black;
+    border-right: 1px solid black;
+    border-bottom: 10px  solid black;
+}
+.block9{
+  display: flex;
+  width: 25px;
+  height:75px;
+  background-color:rgb(252, 230, 34);
+  color: rgb(5, 5, 5);
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px  solid black;
+    border-top: 8px  solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px  solid black;
+}
+
+.b1 {
+  order: 1;
+  flex-grow: 3;
+}
+
+.b2 {
+  order: 2;
+  flex-grow: 5;
+}
+
+.b3 {
+  order:3;
+  flex-grow: 4;
+}
+
+.b4 {
+  order: 4;
+  
+}
+
+.b5 {
+  order: 5;
+  flex-grow: 0;
+}
+.b6 {
+  order: 6;
+}
+
+.b7 {
+  order:7;
+  
+}
+
+#flex_container2{
+  order:8;
+}
+/* .b5 {
+  order: 6;
+}
+
+.b6 {
+  order: 7;
+}
+
+.b7 {
+  order: 8;
+}
+
+.b8 {
+  order: 9;
+}
+
+.b9 {
+  order: 3;
+}
+
+.b10 {
+  order: 5;
+} */
+
+
